@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  background-image: url("/grey-oak-tree-hi.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain; /* This is an background styling; background color, background image, no repeating, fixed background and size*/
+  /* Background: red; url('/grey-oak-tree-hi.png'); no-repeat; fixed; contain - Shorthand za background property*/
+}
+h1 {
+  font-family: serif;
+  text-align: center;
+  color: white;
+}
+div ~ p {
+  font-family: "Times New Roman", Times, serif; /* div ~ p - Paragraphot vo ovoj slucaj e brat/sestra na <div> elementot no ne e child element*/
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(248, 149, 1);
+  text-align: right;
+}
+
+#Id123 {
+  font-family: "Tangerine", serif; /* Id so koe e obelezan paragraphot*/
+  font-size: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.lastparagraph1 {
+  font-family: "Times New Roman", Times, serif; /* classata so koja e obelezan paragraphot*/
+  color: #13e4e4;
+  text-align: center;
+}
+
+span {
+  font-family: "Times New Roman", Times, serif; /* Ovoj <span> element e parent element na <p> i avtomatski go smeta preku parent tagot*/
+  font-size: x-small;
+  color: #0aefa3;
+}
