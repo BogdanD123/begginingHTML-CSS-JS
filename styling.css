@@ -3,7 +3,7 @@ body {
   background-image: url("/grey-oak-tree-hi.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain; /* This is an background styling; background color, background image, no repeating, fixed background and size*/
+  background-position: top left; /* This is an background styling; background color, background image, no repeating, fixed background*/
   /* Background: red; url('/grey-oak-tree-hi.png'); no-repeat; fixed; contain - Shorthand za background property*/
 }
 h1 {
@@ -23,6 +23,7 @@ div ~ p {
   font-family: "Tangerine", serif; /* Id so koe e obelezan paragraphot*/
   font-size: 20px;
   text-shadow: 4px 4px 4px #aaa;
+  color: rgb(253, 248, 248);
 }
 .lastparagraph1 {
   font-family: "Times New Roman", Times, serif; /* classata so koja e obelezan paragraphot*/
