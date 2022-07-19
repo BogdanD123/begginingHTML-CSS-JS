@@ -92,6 +92,8 @@ div article {
   background-color: yellow;
 }
 
+/* Od tuka mi pocnuva vtoriot dokument */
+
 .Main {
   text-align: center;
   position: fixed;
@@ -101,8 +103,6 @@ div article {
   width: 100%;
   z-index: 1;
 }
-
-/* Od tuka mi pocnuva vtoriot dokument */
 
 .Main:hover {
   z-index: -1;
