@@ -17,6 +17,7 @@ header {
   background-color: rgb(22, 22, 23);
   width: 100%;
   color: aliceblue;
+  border: 1px solid white;
 }
 
 footer {
@@ -24,9 +25,11 @@ footer {
   bottom: 0;
   text-align: center;
   padding: 10px;
+  margin-top: 100px;
   background-color: rgb(22, 22, 23);
   width: 100%;
   color: aliceblue;
+  border: 1px solid white;
 }
 
 .flex-container {
@@ -42,15 +45,26 @@ section {
   margin-top: 150px;
   padding: 30px;
   width: 740px;
-  height: 400px;
+  height: 450px;
   background-color: aliceblue;
   border-radius: 5px;
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: -60px;
 }
 #main-container {
   padding: 30px;
   width: 800px;
   height: 420px;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+strong {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1ex;
 }
