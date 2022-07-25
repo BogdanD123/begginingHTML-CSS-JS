@@ -1,0 +1,165 @@
+/*Ova e animacijata za vtoriot document*/
+@keyframes RotateAnm {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes Bouncer {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes Swap1 {
+  from {
+    transform: translateX(0%) scale(1);
+  }
+  to {
+    transform: translateX(150%) scale(1.5);
+  }
+}
+
+@keyframes Swap2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+/* Ova e prviot HTML code */
+div article {
+  margin: 3px;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.class1 {
+  transition: width 3s;
+}
+.class1:hover {
+  width: 260px;
+}
+
+.class2 {
+  transition: transform 3s;
+}
+.class2:hover {
+  transform: rotate(90deg);
+}
+.class3 {
+  transition: width 3s;
+}
+.class3:hover {
+  width: 260px;
+}
+.class1 {
+  float: left;
+  width: 130px;
+  height: 100px;
+  overflow: hidden;
+  background-color: brown;
+}
+
+.class2 {
+  float: left;
+  width: 130px;
+  height: 100px;
+  overflow: auto;
+  background-color: blue;
+}
+
+.class3 {
+  float: left;
+  width: 130px;
+  height: 100px;
+  overflow: visible;
+  background-color: yellow;
+}
+
+/* Od tuka mi pocnuva vtoriot dokument */
+
+.Main {
+  text-align: center;
+  position: fixed;
+  background-color: grey;
+  top: 0;
+  padding: 25px;
+  width: 100%;
+  z-index: 1;
+}
+
+.Main:hover {
+  z-index: -1;
+  /* opacity: -15;  Eden drug nacin kako bi mozel da go napravam mesto z-indexot, podobra varijanta*/
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: brown;
+  border: 1px solid black;
+}
+#span1 {
+  margin-right: 2%;
+  color: aliceblue;
+  background-color: black;
+  width: 45px;
+  height: 45px;
+  padding: 40px;
+  border: 1px solid white;
+  display: inline;
+  float: left;
+  animation: RotateAnm 5s infinite alternate linear;
+}
+#span2 {
+  margin-right: 2%;
+  background-color: rgb(220, 11, 11);
+  width: 45px;
+  height: 45px;
+  padding: 40px;
+  border: 1px solid white;
+  display: inline;
+  float: left;
+  animation-name: Bouncer;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+#span3 {
+  margin-right: 2%;
+  background-color: rgb(180, 226, 15);
+  width: 45px;
+  height: 45px;
+  padding: 40px;
+  border: 1px solid white;
+  display: inline;
+  float: left;
+  animation-name: Swap1; /* Celosno pisuvanje na properties i values */
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#span4 {
+  margin-right: 2%;
+  background-color: rgb(186, 6, 246);
+  width: 45px;
+  height: 45px;
+  padding: 40px;
+  border: 1px solid white;
+  display: inline;
+  float: left;
+  animation: Swap2 2.5s infinite alternate; /* Ova e Shorthandot za animacijata  */
+}
