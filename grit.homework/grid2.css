@@ -1,0 +1,12 @@
+body {
+  background-color: grey;
+}
+#headTItle {
+  display: grid;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  padding: 1000px;
+  margin-bottom: 15px;
+  background-color: black;
+}
