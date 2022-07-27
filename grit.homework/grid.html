@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="grid1.css">
-    <!-- <link rel="stylesheet" href="grid2.css"> -->
+    <!-- <link rel="stylesheet" href="grid1.css"> -->
+    <link rel="stylesheet" href="grid2.css">
     <title>First grid and flexbox document</title>
     <meta name="description" content="This is my first grid and flexbox using for homework">
     <!--This is a Description which will be published on web page-->
@@ -11,100 +11,133 @@
     <!--This is a keywords, how can search engines find easily -->
     <meta name="author" content="Bogdan Dimitrievski">
     <!--My name, name F author-->
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
-    <!--This is a tag how can be good for opening from any device-->
     <meta charset="UTF-8">
     <!-- This is a language on which will this site be showed -->
 
 </head>
 
 <body>
-    <header id="headTitle">
-        <h1>First flex and git homework</h1>
-    </header>
-    <main id="main-container">
-        <section id="sectionMain" class="Data">
+    <nav id="grid-container4" class="flex-container">
 
-            <div>
-                <img src="/icons8-person-30.png" alt="yourProfile" width="40px" height="40px">
-                <h3>Michael Don</h3>
+        <h4 id="Home" class="grid4-item1"><img src="/homepage1.png" alt="Homepage" class="imgbar">
+            <a href="#" target="_blank">Home</a>
+        </h4>
+        <h4 id="Profile" class="grid4-item2"><img src="/icons8-person-30.png" alt="yourProfile"><a href="#"
+                target="_blank" class="imgbar">Profile</a></h4>
+
+        <h4 id="Tabledata" class="grid4-item3"><img src="/icons8-table-30.png" alt="tableData"><a href="#"
+                target="_blank" class="imgbar">Data</a></h4>
+
+        <h4 id="Friendlist" class="grid4-item4"><img src="/icons8-bulleted-list-32.png" alt="friendList"><a href="#"
+                target="_blank" class="imgbar">Friends
+            </a></h4>
+    </nav>
+
+    <header id="headTitle">
+        <h1 id="grid-header">First flex and git homework</h1>
+    </header>
+    <main id="main-container" class="grid-main">
+        <!-- Od tuka zavrsi ja sekcijata -->
+        <section id="sectionMain" class="grid-container">
+
+            <div class="grid-item1">
+                <img class="grid-item2" src="/icons8-person-30.png" alt="yourProfile" width="40px" height="40px">
+                <h3 class="grid-item3">Michael Don</h3>
             </div>
-            <ul>
-                <span>
+            <ul class="grid-item4">
+                <span class="grid-item5">
                     6h
                 </span>
-                <li>
+                <li class="grid-item6">
                     Kumanovo, Macedonia
                 </li>
             </ul>
 
-
-            <article id="article1" class="pageData">
-                <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+            <article id="article1" class="grid-item7">
+                <p class="grid-item8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
                     adipisci quam et fugit similique
                     doloremque beatae ipsa perspiciatis dolor sint numquam neque exercitationem eos eius fuga assumenda,
                     odio temporibus tempora!</p>
-                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quaerat aliquid fuga
+                <p class="grid-item9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quaerat
+                    aliquid
+                    fuga
                     officiis
                     similique
                     assumenda voluptatem autem, eos voluptate quisquam eligendi, dicta ipsam, impedit inventore?
                     Cupiditate
                     minus architecto odit numquam?</p>
             </article>
-            <p class="para"><span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores itaque voluptatem
+
+            <p class="grid-item10"><span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores itaque
+                    voluptatem
                     laborum fuga
                     ipsa
                     aperiam libero impedit quam tenetur nostrum, placeat aut dolorum dicta et consectetur sint suscipit
                     ea
                     distinctio!</span></p>
         </section>
-        <section id="sectionMain2" class="Data">
 
+        <section id="sectionMain2" class="grid-container2">
 
+            <div class="grid2-item1">
+                <img class="grid2-item2" src="/icons8-person-30.png" alt="yourProfile" width="40px" height="40px">
+                <h3 class="grid2-item3">Michael Don</h3>
+            </div>
+            <ul class="grid2-item4">
+                <span class="grid2-item5">
+                    6h
+                </span>
+                <li class="grid2-item6">
+                    Kumanovo, Macedonia
+                </li>
+            </ul>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, cumque. Consequatur consequuntur
+            <p class="grid2-item7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, cumque.
+                Consequatur consequuntur
                 asperiores nihil, delectus quidem, numquam, cum qui doloribus aliquid nemo repellat aspernatur
                 reiciendis dolorum ab vitae autem impedit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
                 doloremque architecto sequi sunt eos deserunt ad quos excepturi molestiae provident iste, repellat
                 numquam error reiciendis esse illo labore voluptatibus tempore!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat unde eius ab iure molestias inventore
+            <p class="grid2-item8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat unde eius ab iure
+                molestias inventore
                 alias doloribus sequi. Illo quod doloremque ab labore doloribus aperiam, nulla nam sit aliquid
                 reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla distinctio consectetur
                 optio asperiores nemo nam laborum repellendus perferendis suscipit dolor cumque id maiores
                 necessitatibus, velit nesciunt omnis soluta harum? Iste!</p>
         </section>
-        <section id="sectionMain3" class="Data">
 
-            <figure>
-                <figcaption><strong>This is a Field</strong></figcaption><span><img src="/49944202182_1131c86287.jpg"
+        <section id="sectionMain3" class="grid-container3">
+
+            <div class="grid3-item1">
+                <img class="grid3-item2" src="/icons8-person-30.png" alt="yourProfile" width="40px" height="40px">
+                <h3 class="grid3-item3">Michael Don</h3>
+            </div>
+
+            <ul class="grid3-item4">
+                <span class="grid3-item5">
+                    6h
+                </span>
+                <li class="grid3-item6">
+                    Kumanovo, Macedonia
+                </li>
+            </ul>
+
+            <figure class="grid3-item7">
+                <figcaption class="grid3-item8"><strong>This is a Field</strong></figcaption><span
+                    class="grid3-item9"><img class="grid3-item10" src="/49944202182_1131c86287.jpg"
                         alt="friendList"></span>
             </figure>
 
-
         </section>
 
-
     </main>
-    <nav id="container" class="flex-container">
-
-        <h4 id="Home" class="navmenu"><img src="/homepage1.png" alt="Homepage" class="imgbar">
-            <a href="#" target="_blank"><span id="home1" class="items">Home</span></a>
-        </h4>
-        <h4 id="Profile" class="navmenu"><img src="/icons8-person-30.png" alt="yourProfile"><a href="#" target="_blank"
-                class="imgbar"><span id="profile1" class="items">Profile</span></a></h4>
-
-        <h4 id="Tabledata" class="navmenu"><img src="/icons8-table-30.png" alt="tableData"><a href="#" target="_blank"
-                class="imgbar"><span id="data1" class="items">Data</span></a></h4>
-
-        <h4 id="Friendlist" class="navmenu"><img src="/icons8-bulleted-list-32.png" alt="friendList"><a href="#"
-                target="_blank" class="imgbar"><span id="friends1" class="items">Friends</span>
-            </a></h4>
-    </nav>
+    <!-- Od tuka neka ti bide navigaciskiot bar -->
 
 
 
+    <!-- Na kraj stavi footer -->
     <footer id="footTitle">
-        <h1>Bogdan Dimitrievski</h1>
+        <h1 id="grid-footer">Bogdan Dimitrievski</h1>
     </footer>
 </body>
 

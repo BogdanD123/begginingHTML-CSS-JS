@@ -10,6 +10,7 @@ body {
   width: 1500px;
 }
 header {
+  display: block;
   position: fixed;
   top: 0;
   text-align: center;
@@ -35,9 +36,10 @@ footer {
 
 .flex-container {
   position: fixed;
-  margin: 200px 5px 5px;
-  padding: 100px;
+  margin-top: 309px;
   height: 400px;
+  padding: 100px;
+  border-right: 1px solid;
 }
 
 section {
@@ -77,4 +79,10 @@ li {
 h3 {
   display: flex;
   margin: 0%;
+}
+.imgbar {
+  font-display: black;
+}
+a:any-link {
+  color: black;
 }
