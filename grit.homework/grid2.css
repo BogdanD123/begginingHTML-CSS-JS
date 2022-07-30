@@ -10,61 +10,109 @@ body {
   padding: 20px;
   background-color: black;
   color: brown;
-  margin: 0 0 50px 0;
+  margin: 0;
 }
 .grid-main {
   display: grid;
   grid-template-columns: 60%;
   justify-content: center;
   grid-row-gap: 5em;
+  padding: 80px;
+  margin: 10px;
 }
 .grid-container {
   display: grid;
-  grid-template-rows: 80px 40px auto auto;
-  grid-template-columns: 100px 100px auto auto;
-  background-color: aliceblue;
-  border: 1px solid;
+  padding: 45px;
   border-radius: 5px;
-  padding: 15px;
-  margin-top: 15%;
+  border: 1px dashed;
+  background-color: aliceblue;
+}
+.image {
+  border: 1px solid;
+  width: 40px;
+}
+.grid-item1 {
+  display: grid;
+  grid-template-columns: 40px 220px;
+}
+.div2 {
+  display: grid;
+  grid-template-rows: 20px 0;
+  padding-left: 10px;
+}
+.grid-item3 {
+  margin: 0;
+  display: grid;
+}
+.grid-item4 {
+  margin: 0;
+
+  display: grid;
+}
+.grid-item3 {
+  display: grid;
+}
+.grid-item7 {
+  display: grid;
+  grid-template-rows: 53px;
 }
 
-.grid-container {
-  grid-template-areas:
-    "picture name name name"
-    "picture time place place"
-    "picture article article article"
-    "picture para para para";
-}
-.grid-container2 {
-  grid-template-areas:
-    "pic fullname fullname fullname"
-    "time town town town"
-    "pic paragraph1 paragraph1 paragraph1"
-    "pic paragraph1 paragraph1 paragraph1"
-    "pic paragraph2 paragrag";
+.grid-item10 {
+  display: grid;
 }
 .grid-container2 {
   display: grid;
-  grid-template-rows: 40px 40px 100px 100px;
-  grid-template-columns: 40px 120px 260px auto;
-  background-color: aliceblue;
-  border: 1px solid;
   border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 15%;
+  border: 1px dashed;
+  background-color: aliceblue;
+  padding: 45px;
+}
+#div2-1 {
+  display: grid;
+  grid-template-columns: 40px 220px;
+}
+#div2-2 {
+  display: grid;
+  grid-template-rows: 20px 0;
+  padding-left: 10px;
 }
 
+.grid2-item3 {
+  display: grid;
+  margin: 0;
+}
+.grid2-item4 {
+  display: grid;
+  margin: 0%;
+}
+.grid2-item7 {
+  display: grid;
+}
 .grid-container3 {
   display: grid;
-  grid-template-rows: 100px 100px 150px 150px;
-  grid-template-columns: 100px 100px 150px 215px;
-  background-color: aliceblue;
-  border: 1px solid;
   border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 15%;
+  border: 1px dashed;
+  background-color: aliceblue;
+  padding: 25px;
 }
+#div3-1 {
+  display: grid;
+  grid-template-columns: 40px 220px;
+}
+#div3-2 {
+  display: grid;
+  grid-template-rows: 20px 0;
+  padding-left: 10px;
+}
+.grid3-item3 {
+  display: grid;
+  margin: 0%;
+}
+.grid3-item5 {
+  display: grid;
+  margin: 0%;
+}
+
 #grid-container4 {
   position: fixed;
   padding: 180px 100px;
@@ -72,44 +120,6 @@ body {
   border-right: 1px solid black;
 }
 
-.grid-item2 {
-  grid-area: picture;
-}
-.grid-item3 {
-  grid-area: name;
-}
-
-.grid-item5 {
-  grid-area: time;
-}
-.grid-item6 {
-  grid-area: place;
-}
-.grid-item7 {
-  grid-area: article;
-}
-.grid-item10 {
-  grid-area: para;
-}
-
-.grid2-item2 {
-  grid-area: pic;
-}
-.grid2-item3 {
-  grid-area: fullname;
-}
-.grid2-item5 {
-  grid-area: time;
-}
-.grid2-item6 {
-  grid-area: town;
-}
-.grid2-item7 {
-  grid-area: paragraph1;
-}
-.grid-item8 {
-  grid-area: paragraph2;
-}
 #grid-footer {
   position: fixed;
   text-align: center;
