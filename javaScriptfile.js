@@ -1,20 +1,21 @@
-let name = "Bogdan";
+let firstName = "Bogdan";
 let age = 24;
 let jobTitle = "nevraboten";
 let gender = "male";
 let liveInSkopje = false;
+let variable = undefined;
 
 let user = {
-  name: "Bogdan",
-  age: 24,
-  jobTitle: "nevraboten",
-  gender: "male",
-  liveInSkopje: false,
+  my_name: firstName,
+  my_age: age,
+  my_jobTitle: jobTitle,
+  my_gender: gender,
+  my_liveInSkopje: liveInSkopje,
 };
-debugger;
+
 console.log("Objekt sto treba da se prikaze vo ConsoleLog", user);
 
 let btn = document.getElementById("item1");
 btn.addEventListener("click", function () {
-  alert("bogdan, 24, nevraboten, male, false");
+  alert((my_age = age));
 });
