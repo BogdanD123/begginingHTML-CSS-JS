@@ -1,26 +1,16 @@
-// let value = false;
-// alert(typeof value); //.This type is Boolean
+let dayOfBirth = 27;
+let monthOfBirth = "18";
+let yearMinusing = 98 - 19;
+let plusNumberOfTheYear = 1 + 9 + 9 + 8;
 
-// value = String(value);
-// alert(typeof value);
+let bool1 = dayOfBirth > Number(monthOfBirth) ? true : false;
+let var1 = yearMinusing / plusNumberOfTheYear;
 
-// let value = "false";
-// alert(typeof value); //.This type is String
+let var2 = "i am the";
 
-// value = Boolean(value);
-// alert(typeof value);
-
-// let num1 = 15;
-
-// console.log(++num1);
-
-let number = 15;
-
-// console.log(number % 6);
-let fisrtNumber = 15;
-let secondNumber = "15";
-let thirdNumber = "1234";
-let stringNumber = Number(secondNumber);
-
-let rezultat = 10 != Number(thirdNumber / secondNumber);
-console.log(rezultat);
+if ((bool1 = true) && var1 < 3) {
+  var2 += " light";
+} else {
+  var2 += " darkness";
+}
+console.log(var2);
