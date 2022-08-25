@@ -2,7 +2,7 @@ let arr = [1221, 2333, 3222, 411, 545, 6];
 let splicedNumber = 2333;
 function removeNumber(array, number) {
   for (let i = 0; i < array.length; i++) {
-    if (array[i] == number) {
+    if (array[(i, 1)] == number) {
       console.log(arr, splicedNumber);
       array.splice(i, 1);
     }
