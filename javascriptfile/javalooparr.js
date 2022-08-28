@@ -1,14 +1,16 @@
+// let arr2 = [121, 2333, 1, 21, 21, 21, 21]; // navedena kako primer za reusable funciton => console.log(array, number)
 let arr = [1221, 2333, 3222, 411, 545, 6];
 let splicedNumber = 2333;
 function removeNumber(array, number) {
   for (let i = 0; i < array.length; i++) {
-    if (array[(i, 1)] == number) {
-      console.log(arr, splicedNumber);
+    if (array[i] == number) {
+      console.log(array, number); // Za ova tuka se misli reusable
       array.splice(i, 1);
     }
   }
   return array;
 }
+
 console.log(removeNumber(arr, splicedNumber));
 
 let niza = [231, 21111, 2333, 22];
