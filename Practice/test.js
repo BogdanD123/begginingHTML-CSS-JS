@@ -34,3 +34,31 @@
 // let num = "";
 // let num2 = 2;
 // let num3 = "3"
+// const brojac = document.getElementById("brojac");
+// function add(someNumber) {
+//   let sum = brojac.innerText * 1 + someNumber;
+//   brojac.innerHTML = sum;
+// }
+// console.log(add(1));
+
+// let elem = document.getElementById("addDiv");
+// function novDiv(div1) {
+//   if (div1 == elem) elem.innerHTML = setInterval(appendChild(1));
+//   elem.style.background = "red";
+// }
+
+// console.log(novDiv(elem));
+
+document.getElementById("forwardPage");
+
+function clicked() {
+  document.getElementById("forwardPage").addEventListener("click");
+  window.history.back;
+}
+
+function clicked() {
+  document.getElementById("forwardPage").addEventListener("click");
+  window.location.pathname =
+    "D:HTMLHomework folderjavascript.homeworkPracticeabout.html";
+}
+clicked();

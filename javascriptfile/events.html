@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #clickedDiv {
+            background-color: silver;
+            width: 5em;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <form action="">
+        Name: <input id="name" value="Bogdan" type="text" onblur="onBlur()" onchange="onChange()" oninput="onInput()">
+        Age: <input id='age' value="" type="number">
+    </form>
+    <div id="div1" onmousedown="onDown()" onmouseout="onOut()">Get Over Me!</div>
+    <script>
+        function mDown() {
+            if (document.getElementById('div1').innerHTML = 'Release Me!!')
+                return document.getElementById('div1').style.background = 'red'
+        }
+        function mUp() {
+            if (document.getElementById('div1').innerHTML = 'Thank You!!')
+                return document.getElementById('div1').style.background = 'blue'
+        }
+        function onOut() {
+            document.getElementById('div1').style.background = 'yellow'
+        }
+        let div = document.getElementById('div1')
+        div.addEventListener("mousedown", mDown)
+        div.addEventListener("mouseup", mUp)
+        div.addEventListener("mouseout", onOut)
+
+        // let div
+        // function onDown() {
+        //     document.getElementById('div1').innerHTML = 'Show up!'
+
+        // }
+        // function onOut() {
+        //     document.getElementById('div1').innerHTML = "Here I am!"
+        // }
+        // function onBlur() {
+        //     document.getElementById('name').style.background = 'red'
+        // }
+        // function onChange() {
+        //     console.log(document.getElementById('name').value)
+        // }
+        // function onInput() {
+        //     console.log(document.getElementById('name').value)
+        // }
+    </script> -->
+
+    <form id='submittingForm' onsubmit="onSubmit()">
+        Name: <input id="input1" class="items" value="" type="text">
+        Lastname: <input id="input2" class="items" value="" type="text">
+        Age: <input id="input3" class="items" value="" type="text">
+        E-mail:<input id="input4" class="items" value="" type="text">
+        Password: <input id="input5" class="items" value="" type="text">
+        <input type="submit">
+    </form>
+    <br><br><br>
+
+    <form id="blurForm">
+        Firstname:<input id="item1" value="" onblur="firstInput()">
+        <br>
+        <div id="blurDiv1" style="background-color: red; width: 250px;"></div>
+        <br>
+        Surname:<input id="item2" value="" onblur="secondInput()">
+        <div id="blurDiv2" style="background-color: yellow; width: 250px"></div>
+        <br>
+        Gender:<input id="item3" value="" onblur="thirdInput()">
+        <div id="blurDiv3" style="background-color: orange; width: 250px"></div>
+        <br>
+        Town:<input id="item4" value="" onblur="forthInput()">
+        <div id="blurDiv4" style="background-color: orangered; width: 250px"></div>
+        <br>
+        Profession:<input id="item5" value="" onblur="fifthInput()">
+        <div id="blurDiv5" style="background-color: mediumspringgreen; width: 250px"></div>
+    </form>
+    <button onclick="clickingButton()">Click</button>
+    <!-- <button onclick="onClicking()">Submit</button> -->
+
+    <div id="clickedDiv" onclick="onClick()">Click me! </div>
+    <input type="submit" id="inputSubmit" onclick="clickedIn()">
+    <script src="/javascriptfile/events.js"></script>
+</body>
+
+</html>

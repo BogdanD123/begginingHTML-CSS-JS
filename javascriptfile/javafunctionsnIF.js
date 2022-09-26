@@ -28,7 +28,10 @@ function modifiedFunction(number1, number2, number3) {
   }
 }
 
-alert(modifiedFunction());
+console.log(
+  modifiedFunction((number2 == number3)(number1 == number3)(number1 == number2))
+);
+
 let number1 = 5;
 let number2 = "5";
 let number3 = 9;

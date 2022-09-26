@@ -13,9 +13,22 @@ let user = {
   my_liveInSkopje: liveInSkopje,
 };
 
-console.log("Objekt sto treba da se prikaze vo ConsoleLog", user);
+function buttonClick(objekt) {
+  alert(objekt);
+}
 
-let btn = document.getElementById("item1");
-btn.addEventListener("click", function () {
-  alert((my_age = age));
-});
+buttonClick(my_age);
+buttonClick(my_jobTitle);
+buttonClick(my_gender);
+
+// console.log("Objekt sto treba da se prikaze vo ConsoleLog", user);
+
+// let btn = document.getElementById("item1");
+// btn.addEventListener("click", function () {
+//   alert((my_age = age));
+// });
+async function fetchText() {
+  await fetch("https:/ / fakestoreapi.com / products")
+    .then((repsonse) => repsonse.text())
+    .then((data) => console.log(data));
+}

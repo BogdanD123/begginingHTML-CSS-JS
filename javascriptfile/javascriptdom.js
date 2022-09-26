@@ -24,9 +24,9 @@ document.getElementsByTagName("li")[2].style.color = "violet";
 document.getElementsByTagName("li")[3].style.color = "pink";
 document.getElementsByTagName("li")[4].style.color = "brown";
 function clickMe() {
-  var v = document.getElementById("item1").value;
+  var v = document.getElementById("inputPole").value;
   console.log("Vrednosta na input poleto:", "" + v);
-  var l = document.getElementById("item").firstElementChild;
+  var l = document.getElementById("ulLista").firstElementChild;
   console.log("<li> Elementot sto treba da se pokaze vo console.log():", "", l);
 }
 
